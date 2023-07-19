@@ -1,0 +1,81 @@
+*{
+    background-color: none;
+    box-shadow: none;
+    scroll-behavior: smooth;
+    background-color: aliceblue;
+}
+.mainWrapper{
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 3px 4px gainsboro;
+    padding: 9px;
+    width: 30%;
+    margin: 10px;
+   
+}
+.centerData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    background-color: white;
+}
+.content{
+    background-color: white;
+}
+.logo > img{
+    width: 80%;
+    margin: 1px;
+    height: 9vh;
+    border-radius: 60%;
+
+}
+.logo{
+    width: 21%;
+    padding: 10px;
+    background-color: white;
+}
+.imgbanner > img{
+    width: 100%;
+}
+.titles {
+    width: 100%;
+    margin: 2px;
+    background-color: white;
+}
+h3{
+    padding: 10px;
+    background-color: white;
+}
+p{
+    background-color: white;
+}
+@media screen and (max-width: 600px) {
+    *{
+        background-color: black;
+    }
+    .mainWrapper{
+        width: 100%;
+        margin: 10px 10% 10px 10%;
+    }
+    .logo{
+        width: 40%;
+        height: 3vh;
+        padding: 10px;
+        background-color: white;
+    }
+    .header{
+        width: 100%;
+    }
+    h3{
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    p{
+        padding: 4px 10px 3px 10px;
+    }
+    
+  }
